@@ -18,7 +18,6 @@ Node.js e npm instalados
 Passo a Passo
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/to-do-list.git
 Instale as dependências
 
 cd to-do-list
