@@ -16,7 +16,7 @@ Como Executar o Projeto
 Pré-requisitos
 Node.js e npm instalados
 Passo a Passo
-Clone o repositório:
+Clone o repositório: http://127.0.0.1:5500/index.html
 
 Instale as dependências
 
