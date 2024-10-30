@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        
+        <!-- Campo de entrada para novas tarefas -->
+        <input type="text" id="nova-tarefa" placeholder="Adicione uma nova tarefa">
+
+        <!-- Campo de entrada para a data de vencimento -->
+        <input type="date" id="data-vencimento">
+
+        
+        <!-- Botão para adicionar a tarefa -->
+        <button id="adicionar-tarefa">Adicionar</button>
+        
+        <!-- Lista onde as tarefas aparecerão -->
+        <ul id="lista-tarefas">
+            <!-- As tarefas serão adicionadas aqui dinamicamente -->
+        </ul>
+
+        <!-- Botões de filtro -->
+        <div class="filtro-container">
+            <button id="todas-tarefas">Todas</button>
+            <button id="tarefas-concluidas">Concluídas</button>
+            <button id="tarefas-pendentes">Pendentes</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
